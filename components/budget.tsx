@@ -23,7 +23,7 @@ const Dice: React.FC = () => (
 );
 
 export default function Budget() {
-  const [funding, setFunding] = useState(20000);
+  const [funding, setFunding] = useState(0);
   const salaries = getSalaries(funding);
   return (
     <div className="bg-black text-white rounded-lg">
