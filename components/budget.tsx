@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function getSalaries(fundingPool: number): number {
-  const interns = Math.floor(fundingPool / 30000) + 1;
+  const interns = Math.floor(Math.max(fundingPool - 10000, 0) / 10000) + 1;
   const salaries = Math.round(Math.floor(fundingPool / interns));
   return salaries;
 }
