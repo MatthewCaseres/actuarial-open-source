@@ -118,6 +118,10 @@ export default function Example() {
           </p>
         </div>
         <div className="mt-6 max-w-prose prose mx-auto">
+          <div className="bg-yellow-100 p-5">
+            This is currently a proposal. It will become a reality if our
+            application to join the Open Source Collective is successful.
+          </div>
           <h2>Details</h2>
           <p>
             This is a fully-remote internship for Summer 2023. You set your own
