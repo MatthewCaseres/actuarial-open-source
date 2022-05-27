@@ -15,6 +15,13 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/dice.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/dice.tsx",
+    "pages/play.jsx",
+    "pages/index.jsx"
+  ],
   "exclude": ["node_modules"]
 }
